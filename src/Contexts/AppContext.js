@@ -3,36 +3,31 @@ import axios from "axios";
 
 const AppContext = createContext();
 
-const AppContextProvider = ({children})=>{
-    const [data, setData] = useState("");
+const AppContextProvider = ({ children }) => {
+  const [data, setData] = useState("");
 
-    useEffect(() => {
-        const fetchData = async () => {
-          try {
-            const response = await axios.get(
-              "https://dev-api.konfhub.com/event/public/konfhub-frontend-evaluation-task"
-            );
-            setData(response.data);
-          } catch (error) {
-            console.error(error);
-          }
-        };
-    
-        fetchData();
-      }, []);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(
+          "https://dev-api.konfhub.com/event/public/konfhub-frontend-evaluation-task"
+        );
+        setData(response.data);
+      } catch (error) {
+        console.error(error);
+      }
+    };
 
-      return(
-        <AppContext.Provider value={data}>
-            {children}
-        </AppContext.Provider>
-      );
+    fetchData();
+  }, []);
 
-}
+  return <AppContext.Provider value={data}>{children}</AppContext.Provider>;
+};
 
-const useAppContext = ()=>{
-    const data = useContext(AppContext);
-    return data;
-}
+const useAppContext = () => {
+  const data = useContext(AppContext);
+  return data;
+};
 
-export {useAppContext};
+export { useAppContext };
 export default AppContextProvider;

@@ -10,7 +10,6 @@
   right: .75rem;
   top: .10rem;
   font-family: Manrope;
-  /* transition: top 0.3s ease; */
 
 }
 
@@ -38,8 +37,6 @@
 }
 
 .eventCard {
-  /* width: 265px;
-  height: 232px; */
   padding: 10px;
 }
 

@@ -7,7 +7,7 @@ import {
   FaXTwitter,
   FaLinkedin,
   FaGlobe,
-  FaPhone
+  FaPhone,
 } from "react-icons/fa6";
 import { IoMail } from "react-icons/io5";
 import { FaVideo } from "react-icons/fa";
@@ -72,12 +72,18 @@ function EventCard() {
 
             <div className={style.event}>
               <p>
-                <strong>Event Live Link :</strong> <a href="https://dev.konfhub.com/konfhub-frontend-evaluation-task/">Open streaming website</a>{" "}
+                <strong>Event Live Link :</strong>{" "}
+                <a href="https://dev.konfhub.com/konfhub-frontend-evaluation-task/">
+                  Open streaming website
+                </a>{" "}
               </p>
             </div>
 
             <div className={style.date}>
-              <p><strong>Date:</strong> Jul 31st, 2034 6:00 AM - Aug 31st, 2034 6:00 PM IST</p>
+              <p>
+                <strong>Date:</strong> Jul 31st, 2034 6:00 AM - Aug 31st, 2034
+                6:00 PM IST
+              </p>
             </div>
 
             <div className={style.countdown}>
@@ -102,7 +108,11 @@ function EventCard() {
         </div>
 
         <div className={style.button2}>
-          <button onclick={window.open('https://dev.konfhub.com/konfhub-frontend-evaluation-task')}>
+          <button
+            onclick={window.open(
+              "https://dev.konfhub.com/konfhub-frontend-evaluation-task"
+            )}
+          >
             Official Website <HiOutlineExternalLink className={style.linkIco} />
           </button>
         </div>
@@ -111,10 +121,7 @@ function EventCard() {
 
           <div className={style.hostCard}>
             <div className={style.hostHead}>
-              <img
-                className={style.hostImage}
-                src={data.organiser_image_url}
-              />
+              <img className={style.hostImage} src={data.organiser_image_url} />
               <span className={style.hostName}>{data.organiser_name}</span>
             </div>
             <div className={style.hostContent}>
@@ -143,7 +150,7 @@ function EventCard() {
                     <IoMail />
                   </a>
                   <a href={data.organiser_phone}>
-                  <FaPhone />
+                    <FaPhone />
                   </a>
                 </div>
               </div>

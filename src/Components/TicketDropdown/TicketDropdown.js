@@ -22,14 +22,20 @@ const TicketDropdown = ({ title, description, number, collapsed }) => {
             description={
               "This is a ticket description. This is a paid ticket. This ticket is categorised."
             }
-            venue={"KonfHub Technologies, Nagavarapalya, C V Raman Nagar, Bengaluru, Karnataka, India"}
+            venue={
+              "KonfHub Technologies, Nagavarapalya, C V Raman Nagar, Bengaluru, Karnataka, India"
+            }
             price={"FREE"}
             type={"Register"}
           />
           <TicketCard
             title={`Paid Ticket in Category${number}`}
-            description={"This is a ticket description. This is a paid ticket. This ticket is categorised."}
-            venue={"KonfHub Technologies, Nagavarapalya, C V Raman Nagar, Bengaluru, Karnataka, India"}
+            description={
+              "This is a ticket description. This is a paid ticket. This ticket is categorised."
+            }
+            venue={
+              "KonfHub Technologies, Nagavarapalya, C V Raman Nagar, Bengaluru, Karnataka, India"
+            }
             price={"₹1,000"}
             type={"Register"}
           />

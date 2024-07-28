@@ -44,7 +44,7 @@ function Home() {
         <section id="about">
           <div>
             <h2>ABOUT EVENT</h2>
-            <About/>
+            <About />
           </div>
         </section>
         <section id="tickets" className={style.TicketSection}>
@@ -199,7 +199,7 @@ function Home() {
       </div>
 
       <div>
-      <EventCard />
+        <EventCard />
       </div>
     </div>
   );
