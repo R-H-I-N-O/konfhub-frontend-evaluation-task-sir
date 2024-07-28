@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+.mainContainer {
+  width: 24vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  position: sticky;
+  right: .75rem;
+  top: .10rem;
+  font-family: Manrope;
+  /* transition: top 0.3s ease; */
+
+}
+
+.mainBox {
+  border: 1px solid #cacaca;
+  border-radius: 8px;
+  padding: .5rem;
+
+}
+
+.icons {
+  display: flex;
+  gap: 5rem;
+}
+
+.iconBox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.iconBox p {
+  font-size: 1rem;
+  color: #212529;
+}
+
+.eventCard {
+  /* width: 265px;
+  height: 232px; */
+  padding: 10px;
+}
+
+.CardHead{
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.timer {
+  margin: 0;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.date span {
+  margin: 0;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.countdown {
+  padding-top: 15px;
+}
+.timer{
+  font-size: 23px;
+  font-weight: 800;
+}
+
+
+.event p {
+  font-family: Manrope;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+}
+.event p a {
+  color: #0d6efd;
+}
+.event span {
+  text-decoration: underline;
+  color: rgb(46, 46, 243);
+}
+
+.eventHead {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.timer {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.button1 {
+  padding-top: 10px;
+}
+
+.button1 button {
+  width: 100%;
+  padding: 8px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+
+}
+
+.button2 {
+  padding-top: 10px;
+}
+
+.button2 button {
+  width: 100%;
+  padding: 8px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.linkIco{
+    font-size: 1rem;
+}
+
+.date{
+    padding-top: 5px;
+
+}
+.hostContainer{
+  margin-top: .5rem;
+  box-sizing: border-box;
+}
+.hostedBy{
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+.hostCard{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 0.8px solid rgb(202, 202, 202);
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+.hostHead{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.hostName{
+  font-size: 18px;
+  font-weight: 600;
+}
+.hostImage{
+  height: 42px;
+  width: 42px;
+  background-color: aqua;
+  border-radius: 50%;
+}
+.hostDescription{
+  font-size: 16px;
+}
+.hostSocialLink{
+  font-size: 18px;
+}
+.socialIcons{
+  display: flex;
+  gap: .5rem;
+}
+.socialIcons a{
+  color: #212529;
+}

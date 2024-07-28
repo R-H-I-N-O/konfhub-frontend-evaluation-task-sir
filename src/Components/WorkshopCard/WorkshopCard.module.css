@@ -1,0 +1,64 @@
+.workshopCardContainer{
+    background: #fff;
+    border: .8px solid #cacaca;
+    border-radius: 5px;
+    position: relative;
+    width: fit-content;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.workshopCardPoster{
+    height: 150px;
+    width: 300px;
+}
+.workshopCardPoster img{
+    height: 100%;
+    width: 100%;
+}
+.workshopCardTitle{
+    margin-top: 20px;
+    overflow: hidden;
+    height: 60px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.workshopCardTiming{
+    margin-top: 15px;
+    font-weight: 400;
+}
+.workshopCardFooter{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.workshopCardProfilePic{
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    display: flex;
+}
+.workshopCardProfilePic img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: solid 3px #fff;
+}
+.workshopCardButton{
+    padding: 10px 30px;
+    font-size: 1rem;
+    background-color: #000;
+    box-shadow: 0px 4px 5px rgb(0 0 0 / 15%);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+.workshopCardButton:hover{
+    background-color: #212529;
+    cursor: pointer;
+}
+.marginLeftNegative{
+    margin-left: -20px;
+}

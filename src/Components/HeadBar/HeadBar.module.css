@@ -1,0 +1,20 @@
+.container {
+
+}
+
+.HeadBarMain {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1.5rem 0.8rem 1.5rem;
+}
+.Imagebox img {
+  width: 100px;
+  height: 50px;
+}
+
+.userIcon {
+  font-size: 1.3rem;
+}
+
+
+

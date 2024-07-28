@@ -1,0 +1,14 @@
+.sposorCardBox{
+    height: 140px;
+    width: 270px;
+    padding: 0px 12px;
+    box-sizing: border-box;
+}
+.sposorCardImage{
+    color: transparent;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 0.8px solid rgb(202, 202, 202);
+    margin-bottom: 1rem;
+}

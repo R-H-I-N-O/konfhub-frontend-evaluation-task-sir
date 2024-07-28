@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.speakercardContainer{
+    margin-top: 1rem;
+    background-color: #fff;
+    background: #fff;
+    border-radius: 5px;
+    border: .8px solid #cacaca;
+    text-align: left;
+    display: flex;
+    padding: .5rem;
+    width: 335px;
+    height: 135px;
+    box-sizing: border-box;
+}
+.speakerImage{
+    width: 40%;
+    padding: 0px 12px;
+}
+.speakerImage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.speakerContent{
+    padding: 0px 0 0 12px;
+    display: flex;
+    flex-direction: column;
+}
+.speakerContent p{
+    margin: 6px;
+}
+.SpeakerHeading{
+    margin: 0;
+    font-weight: 800;
+    font-size: 1rem;
+    color: #141b25;
+
+}
+.speakerSocialLink{
+    display: flex;
+    justify-content: space-between;
+}
+.speakerSocialLink a{
+    text-decoration: none;
+    color: #141b25;
+}
