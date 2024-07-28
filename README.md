@@ -1,7 +1,7 @@
 # Still Under Development
 
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# This app is developed using React.
+# I opted not to use Tailwind or Bootstrap in order to maintain plain CSS for this project.
 
 # installing node modules
 
